@@ -111,9 +111,10 @@ afterEvaluate { project ->
     }
 
    publishing {
-    publications {
-        maven(MavenPublication) {
-            artifact androidSourcesJar
+        publications {
+            maven(MavenPublication) {
+                artifact androidSourcesJar
+            }
         }
     }
 }
